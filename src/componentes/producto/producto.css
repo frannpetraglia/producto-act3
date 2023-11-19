@@ -1,0 +1,81 @@
+body{
+    background: #030b03;
+}
+
+.product-container {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.60rem;
+    background: #0b0601;
+}
+
+.product-container {
+    display: flex;
+    border: 1px solid    #0b0601;
+    
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('src/componentes/producto/madera-negra.jpg');
+   
+}
+
+.product-container img {
+    max-width: 35%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-info {
+    margin-left: 20px;
+
+}
+
+.product-info h2 {
+    margin: 0;
+    font-family: 'Bahnschrift SemiBold Condensed', sans-serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.pPrecio {
+    margin: 0px;
+    font-size: 25px;
+    color: #e28535;
+}
+
+.pDescripcion {
+    margin: 0px;
+    color: #e28535;
+    
+}
+
+.carrito button{
+    border-radius:10px;
+    margin-left: 10px;
+    background:#eecb76;
+    left: 50%;
+    font-family: 'Times New Roman',serif;
+    border-color: #e28535;
+    color: #0b0601;
+}
+.divContenedor{
+    display: flex;
+    color: #e28535;
+}
+.carrito{
+    flex: 1;    
+}
+.ingredientes{
+    
+    border: 3px solid #ccc;
+    padding: 5px;
+    text-align: justify;
+    background-color: #030b03;
+   
+    margin: 5px;
+}
+b{
+   color: #e28535;
+}
