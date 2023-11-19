@@ -1,4 +1,5 @@
 import './header.css'
+import logo from '/public/logo.png'
 
 
 export default function Header() {
@@ -16,7 +17,7 @@ export default function Header() {
             />
             <div className='titulonombre'>
                 <div className='foto'>
-                    <img src="/public/fernet-logo.png" />
+                    <img src={logo} />
                 </div>
                 <div className='nombre'>
                     <h1 className='titulo'>La Mia Bottiglia</h1>

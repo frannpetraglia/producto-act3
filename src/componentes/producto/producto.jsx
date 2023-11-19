@@ -1,6 +1,7 @@
 import './producto.css'
 import React, { useState } from 'react';
-/*import fernet-ladrillos from '/src/componentes/producto/fernet-ladrillos.jpg'*/
+import fernet_ladrillos from '../producto/fernet_ladrillos.jpg'
+import madera_negra from '../producto/madera_negra.jpg'
 
 export default function Producto() {
 
@@ -25,7 +26,7 @@ export default function Producto() {
             <div className="product-container">
 
 
-                <img src="src\componentes\producto/fernet-ladrillos.jpg" alt="Producto" />
+                <img src={fernet_ladrillos} alt="Producto" />
                 <div class="product-info">
                     <h2><b>FERNET BRANCA CLASICO 750 cc</b></h2>
                     <p className='pPrecio'>$5200 <br /> en 12x $1026</p>
